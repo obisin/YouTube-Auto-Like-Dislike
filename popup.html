@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="popup-container">
+        <div class="header">
+            <h3>YouTube Auto Like/Dislike</h3>
+        </div>
+
+        <div class="current-channel">
+            <div class="channel-info">
+                <span id="channel-name">Detecting channel...</span>
+            </div>
+        </div>
+
+        <div class="actions">
+            <button id="add-like" class="action-btn like-btn" disabled>
+                <span class="icon">👍</span>
+                Add to Auto-Like
+            </button>
+
+            <button id="add-dislike" class="action-btn dislike-btn" disabled>
+                <span class="icon">👎</span>
+                Add to Auto-Dislike
+            </button>
+        </div>
+
+        <div class="channel-status" id="channel-status" style="display: none;">
+            <span id="status-text"></span>
+        </div>
+
+        <div class="footer">
+            <button id="open-settings" class="settings-btn">⚙️ Open Settings</button>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>

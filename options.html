@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>YouTube Auto Like/Dislike Settings</title>
+    <link rel="stylesheet" href="options.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>YouTube Auto Like/Dislike Settings</h1>
+            <p>Manage your automatic like and dislike preferences for YouTube channels</p>
+        </header>
+
+        <div class="settings-section">
+            <h2>General Settings</h2>
+            <div class="setting-item">
+                <div class="setting-info">
+                    <label for="enable-likes">Enable Auto-Like</label>
+                    <span class="setting-description">Automatically like videos from channels in your like list</span>
+                </div>
+                <label class="toggle">
+                    <input type="checkbox" id="enable-likes">
+                    <span class="slider"></span>
+                </label>
+            </div>
+
+            <div class="setting-item">
+                <div class="setting-info">
+                    <label for="enable-dislikes">Enable Auto-Dislike</label>
+                    <span class="setting-description">Automatically dislike videos from channels in your dislike list</span>
+                </div>
+                <label class="toggle">
+                    <input type="checkbox" id="enable-dislikes">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </div>
+
+        <div class="channels-section">
+            <div class="channel-list-container">
+                <h2>Auto-Like Channels</h2>
+                <div class="add-channel">
+                    <input type="text" id="like-channel-input" placeholder="Enter channel handle (e.g., @channelname)">
+                    <button id="add-like-channel" class="add-btn">Add to Like List</button>
+                </div>
+                <div class="channel-list" id="like-channels-list">
+                    <div class="no-channels">No channels in like list</div>
+                </div>
+            </div>
+
+            <div class="channel-list-container">
+                <h2>Auto-Dislike Channels</h2>
+                <div class="add-channel">
+                    <input type="text" id="dislike-channel-input" placeholder="Enter channel handle (e.g., @channelname)">
+                    <button id="add-dislike-channel" class="add-btn">Add to Dislike List</button>
+                </div>
+                <div class="channel-list" id="dislike-channels-list">
+                    <div class="no-channels">No channels in dislike list</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="actions-section">
+            <button id="export-settings" class="secondary-btn">Export Settings</button>
+            <button id="import-settings" class="secondary-btn">Import Settings</button>
+            <input type="file" id="import-file" accept=".json" style="display: none;">
+        </div>
+
+        <div class="status-message" id="status-message" style="display: none;"></div>
+    </div>
+
+    <script src="options.js"></script>
+</body>
+</html>
