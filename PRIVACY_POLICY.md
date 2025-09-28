@@ -6,7 +6,7 @@ YouTube Auto Like/Dislike
 ## Category
 Productivity
 
-## Short Description (132 characters max)
+## Short Description
 Automatically like or dislike YouTube videos based on pre-configured channel preferences. Manage video engagement efficiently.
 
 ## Detailed Description
@@ -69,3 +69,4 @@ Required to run content scripts on YouTube pages to detect channels and perform 
 - Follows YouTube's terms of service by using standard user interface elements
 - Single-purpose focus on video engagement automation
 - All user actions are transparent and configurable
+
