@@ -2,6 +2,8 @@
 
 Automatically like or dislike YouTube videos based on the channel. Maintain separate lists for channels you want to auto-like or auto-dislike.
 
+Avaiable on chrome store link here: [https://chromewebstore.google.com/detail/youtube-auto-likedislike/migadinamddabnogbihkoiolbhefbeao?authuser=0&hl=da&pli=1](https://chromewebstore.google.com/detail/migadinamddabnogbihkoiolbhefbeao?utm_source=item-share-cb)
+
 ## Features
 
 - Auto-like videos from favorite channels
